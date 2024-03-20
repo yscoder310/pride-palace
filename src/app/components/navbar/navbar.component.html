@@ -1,0 +1,26 @@
+<nav class="border-b border-zinc-800">
+  <div class="container px-4 py-2 flex justify-between">
+    <div class="text-white flex gap-2 items-center">
+      <i class="fa-brands fa-pied-piper-pp text-4xl"></i>
+
+      Pride Palace
+    </div>
+    <div class="w-1/2">
+      <ul class="flex gap-6">
+        <li class="p-3 text-white hover:text-gray-300 hover:underline">
+          <a
+            routerLink="/"
+            routerLinkActive="text-gray-300 underline"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >Home</a
+          >
+        </li>
+        <li class="p-3 text-white hover:text-gray-300 hover:underline">
+          <a routerLink="/rooms" routerLinkActive="text-gray-300 underline"
+            >Rooms</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
